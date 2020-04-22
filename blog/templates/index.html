@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Welcome!</title>
+    <meta charset="utf-8">
+    <meta name="keywords" content="By zl">
+    <meta name="description" content="个人小站">
+    <meta name="author" content="zl">
+    <meta name="version" content="1.0">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="/static/css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="/static/css/home.css" rel="stylesheet" type="text/css">
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
+    </script>
+</head>
+<body>
+
+<iframe allowtransparency="true" frameborder="0" width="385" height="96" scrolling="no"
+        src="//tianqi.2345.com/plugin/widget/index.htm?s=2&z=1&t=0&v=0&d=3&bd=0&k=000000&f=&ltf=009944&htf=cc0000&q=1&e=1&a=1&c=70560&w=385&h=96&align=center"
+        class="weather">
+</iframe>
+
+<script type="text/JavaScript" src="/static/js/calendar.js"></script>
+
+
+<div class="searchAll">
+    <div class="menuBox">
+        <ul class="menu">
+            <li class="active">网页</li>
+            <li class="inactive">新闻</li>
+            <li class="inactive">图片</li>
+            <li class="inactive">音乐</li>
+            <li class="inactive">地图</li>
+        </ul>
+    </div>
+    <form action="https://www.baidu.com/s" method="get" class="search" name="formAction">
+        <div class="engineBox">
+            <label for="keyword">
+                <div class="searchEngine">
+                    <img src="/static/images/baidu.png" alt="wrong">
+                    <svg id="caretDown" viewBox="0 0 1024 1024">
+                        <path d="M450.44 926.52l-384-633.2A72 72 0 0 1 128 184h768a72 72 0 0 1 61.56 109.32l-384 633.2a72 72 0 0 1-123.12 0z"
+                              fill="#6F6969"></path>
+                    </svg>
+                </div>
+            </label>
+        </div>
+        <div class="textBox">
+            <input name="wd" type="search" id="keyword" autocomplete="off">
+        </div>
+    </form>
+</div>
+<div class="link">
+    <a href="#" class="href">
+
+    </a>
+    <a href="{% url 'myblog:article_list' %} " class="href">
+
+        <svg x="1587437821114" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
+             p-id="7789" width="80" height="80">
+            <path d="M512.6 546l-272 272c-18.8 18.8-49.2 18.8-67.8 0l-45.2-45.2c-18.8-18.8-18.8-49.2 0-67.8l192.8-192.8-192.8-192.8c-18.8-18.8-18.8-49.2 0-67.8L172.6 206c18.8-18.8 49.2-18.8 67.8 0l272 272c19 18.8 19 49.2 0.2 68z m384-68l-272-272c-18.8-18.8-49.2-18.8-67.8 0l-45.2 45.2c-18.8 18.8-18.8 49.2 0 67.8l192.8 192.8-192.8 192.8c-18.8 18.8-18.8 49.2 0 67.8l45.2 45.2c18.8 18.8 49.2 18.8 67.8 0l272-272c18.8-18.4 18.8-48.8 0-67.6z"
+                  p-id="7790" fill="#004BFF"></path>
+        </svg>
+    </a>
+    <a href="#" class="href">
+
+    </a>
+</div>
+
+<script type="text/JavaScript" src="/static/js/changemenu.js"></script>
+</body>
+
+</html>
